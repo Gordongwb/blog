@@ -1,0 +1,6 @@
+[submodule "themes/redlounge"]
+	path = themes/redlounge
+	url = https://github.com/tmaiaroto/hugo-redlounge.git
+[submodule "themes/minimo"]
+	path = themes/minimo
+	url = https://github.com/MunifTanjim/minimo.git
