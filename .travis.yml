@@ -15,5 +15,5 @@ deploy:
     repo: gordongwb/gordongwb.github.io
     fqdn: <custom-domain-if-needed>
     target_branch: master
-    email: <github-email>
-    name: <github-username>
+    email: gordongwbisawesome@gmail.com
+    name: gordongwb
