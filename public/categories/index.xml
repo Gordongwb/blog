@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
+    <title>Categories on Gordon&#39;s Blog</title>
     <link>https://gordongwb.github.io/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <description>Recent content in Categories on Gordon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Aug 2018 12:30:00 +0600</lastBuildDate>
     
 	<atom:link href="https://gordongwb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>features</title>
+      <link>https://gordongwb.github.io/categories/features/</link>
+      <pubDate>Sun, 12 Aug 2018 12:30:00 +0600</pubDate>
+      
+      <guid>https://gordongwb.github.io/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>others</title>
+      <link>https://gordongwb.github.io/categories/others/</link>
+      <pubDate>Mon, 25 Sep 2017 08:00:00 +0600</pubDate>
+      
+      <guid>https://gordongwb.github.io/categories/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://gordongwb.github.io/categories/tutorial/</link>
+      <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
+      
+      <guid>https://gordongwb.github.io/categories/tutorial/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
