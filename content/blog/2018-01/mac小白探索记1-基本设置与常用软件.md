@@ -42,7 +42,7 @@ Windows平台上control在快捷键中使用频繁，而转到mac平台后很多
 
 ⌈系统偏好设置⌋ > ⌈键盘⌋ > ⌈键盘⌋ > 点击⌈自定义控制条⌋ 即可进行设置。
 
-{{% center %}}<img name="touchbar-config" src="/images/series/Mac小白探索记/1/touchbar-config.jpg" width='400px'/>{{% /center %}}
+{{< center >}}<img name="touchbar-config" src="/images/series/Mac小白探索记/1/touchbar-config.jpg" width='400px'/>{{< /center >}}
 
 可以将一些找起来比较麻烦但常用的设置放在touchbar，移除默认设置touchbar中一些不常用的功能。我放了night shift、免打扰和屏幕保护程序。应用程序中的touchbar的功能和该应用程序本身功能有关，有些可以在程序中设置touchbar的功能。
 
