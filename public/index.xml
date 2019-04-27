@@ -1,284 +1,154 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Gordon&#39;s Blog</title>
+    <title>Gordon&#39;s Blog</title>
     <link>https://gordongwb.github.io/</link>
-    <description>Recent content in Home on Gordon&#39;s Blog</description>
+    <description>Recent content on Gordon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Aug 2018 12:30:00 +0600</lastBuildDate>
+    <language>zn-Hans</language>
+    <lastBuildDate>Wed, 27 Mar 2019 11:14:46 +0800</lastBuildDate>
     
 	<atom:link href="https://gordongwb.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Typography</title>
-      <link>https://gordongwb.github.io/typography/</link>
-      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
+      <title>aria2</title>
+      <link>https://gordongwb.github.io/blog/2019-03/aria2/</link>
+      <pubDate>Wed, 27 Mar 2019 11:14:46 +0800</pubDate>
       
-      <guid>https://gordongwb.github.io/typography/</guid>
-      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-### Heading 3 Yet another, but centered! Excepteur sint occaecat ~~cupidatat non proident, sunt in culpa qui officia~~ deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://gordongwb.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gordongwb.github.io/about/</guid>
-      <description>Mínimo is a Spanish word that roughly translate to Minimal.
-Minimo is a minimalist theme for Hugo.
-Minimo keeps the focus on your content and lets it shine!</description>
-    </item>
-    
-    <item>
-      <title>KaTeX Support</title>
-      <link>https://gordongwb.github.io/docs/katex-support/</link>
-      <pubDate>Sun, 12 Aug 2018 12:30:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/katex-support/</guid>
-      <description>For enabling KaTeX, add this to your content&amp;rsquo;s frontmatter:
---- katex: true --- KaTeX Syntax for Markdown In your Markdown content, use \\(&amp;hellip;\\) delimiters for in-line mathematics.
-For mathematics blocks you can use either $$&amp;hellip;$$ or \\[&amp;hellip;\\] as delimiters.
-Here&amp;rsquo;s an example Markdown content:
-When \\( a \ne 0 \\), there are two solutions to $$ ax^2 + bx + c = 0 $$ and they are: \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\] Output:</description>
-    </item>
-    
-    <item>
-      <title>Search: Fuse.js</title>
-      <link>https://gordongwb.github.io/docs/search-fuse-js/</link>
-      <pubDate>Fri, 06 Jul 2018 01:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/search-fuse-js/</guid>
-      <description> Configure Fuse.js Search Client Select Fuse.js as the search client in your config.toml file:
-[params.search] client = &amp;#34;fuse&amp;#34;</description>
-    </item>
-    
-    <item>
-      <title>Search: Algolia</title>
-      <link>https://gordongwb.github.io/docs/search-algolia/</link>
-      <pubDate>Thu, 05 Jul 2018 23:30:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/search-algolia/</guid>
-      <description>Configure Algolia Search Client Select Algolia as the search client in your config.toml file:
-[params.search] client = &amp;#34;algolia&amp;#34; Also, add configuration options for Algolia:
-[params.search.algolia] appId = &amp;#34;&amp;#34; indexName = &amp;#34;&amp;#34; searchApiKey = &amp;#34;&amp;#34;  params.search.algolia [Map]:  appId [String]: Algolia Application ID indexName [String]: Name for Algolia Indices
-default: minimo_site searchApiKey [String]: Algolia Search-Only API Key   You&amp;rsquo;ll find various information related to your Algolia account in the Algolia Dashboard.</description>
-    </item>
-    
-    <item>
-      <title>Search: Lunr.js</title>
-      <link>https://gordongwb.github.io/docs/search-lunr-js/</link>
-      <pubDate>Thu, 05 Jul 2018 20:30:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/search-lunr-js/</guid>
-      <description>Configure Lunr.js Search Client Select Lunr.js as the search client in your config.toml file:
-[params.search] client = &amp;#34;lunr&amp;#34; Generate Search Index for Lunr.js Lunr.js will need a search index for searching across your site. So, you&amp;rsquo;ll need to generate that search index for Lunr.js before you deploy your site.
-Minimo comes with a script for generating the search index for Lunr.js: /scripts/generate-search-index-lunr.js.
-Install Dependencies Node.js must be installed on your system for using the generator script.</description>
-    </item>
-    
-    <item>
-      <title>Search Support</title>
-      <link>https://gordongwb.github.io/docs/search-support/</link>
-      <pubDate>Thu, 05 Jul 2018 20:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/search-support/</guid>
-      <description>Minimo supports the following clients for the search feature:
- Algolia Fuse.js Lunr.js  Follow the following steps for enabling search in your site.
-Create Search Page First of all, you&amp;rsquo;ll need to create a search page.
-Create a markdown file under /content/page/ directory with the filename search. If your site is multilingual, you can include language code in the filename. For example:
- /content/page/search.md /content/page/search.en.md  Add the following options in the frontmatter:</description>
-    </item>
-    
-    <item>
-      <title>Comments Support</title>
-      <link>https://gordongwb.github.io/docs/comments-support/</link>
-      <pubDate>Thu, 29 Mar 2018 09:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/comments-support/</guid>
-      <description>Minimo has support for comments baked into it.
-Enable/Disable Comments Globally For enabling or disabling comments globally, check the following setting in your config.toml file:
-[params.comments] enable = false  params.comments [Map]:  enable [Boolean]: Enable/Disable comments globally   For Specific Posts The global .Site.Params.comments.enable setting can be overridden for specific posts in their content&amp;rsquo;s frontmatter with this option:
---- comments: true ---  comments [Boolean]: Enable/Disable comments for specific posts  Of course, you&amp;rsquo;ll also need to setup a comment system ( Disqus or Staticman ).</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://gordongwb.github.io/docs/emoji-support/</link>
-      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/emoji-support/</guid>
-      <description>First of all, if you really want emojis, set the enableEmoji setting to true in your config.toml file:
-enableEmoji = true This will enable Hugo to find Emoji Shorthands in your content files and render them as Unicode Emoji Characters.
-For example:
- will become 😃  No, it&amp;rsquo;ll probably not be that colorful! Unless your device&amp;rsquo;s operating system natively supports colorful emojis, you will see a black &amp;amp; white one instead.</description>
-    </item>
-    
-    <item>
-      <title>MathJax Support</title>
-      <link>https://gordongwb.github.io/docs/mathjax-support/</link>
-      <pubDate>Tue, 27 Feb 2018 18:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/mathjax-support/</guid>
-      <description>For enabling MathJax, add this to your content&amp;rsquo;s frontmatter:
---- mathjax: true --- MathJax Syntax for Markdown In your Markdown content, use \\(&amp;hellip;\\) delimiters for in-line mathematics.
-For mathematics blocks you can use either $$&amp;hellip;$$ or \\[&amp;hellip;\\] as delimiters.
-Here&amp;rsquo;s an example Markdown content:
-When \\( a \ne 0 \\), there are two solutions to $$ ax^2 + bx + c = 0 $$ and they are: \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\] Output:</description>
-    </item>
-    
-    <item>
-      <title>Sidebar</title>
-      <link>https://gordongwb.github.io/docs/sidebar/</link>
-      <pubDate>Wed, 07 Feb 2018 19:15:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/sidebar/</guid>
-      <description>Enabling Sidebar For enabling Sidebar, use the following configuration options in your config.toml file:
-[params.sidebar] enable = true  params.sidebar [Map]:  enable [Boolean]: Switch for enabling sidebar   Adding Widgets to Sidebar For adding Widgets to the Sidebar, check the Widgets documentation.</description>
-    </item>
-    
-    <item>
-      <title>Widgets</title>
-      <link>https://gordongwb.github.io/docs/widgets/</link>
-      <pubDate>Wed, 07 Feb 2018 18:30:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/widgets/</guid>
-      <description>Minimo supports Widgets that you can place on specific Widget Areas.
-Available Widgets Minimo has the following built-in Widgets:
-   Name Slug     1. About about   2. Breadcrumbs breadcrumbs   3. Recent Posts recent_posts   4. Search search   5. Sidebar Menu sidebar_menu   6. Social Menu social_menu   7. Taxonomy Cloud taxonomy_cloud    Widget Configuration Options Here are the configuration options available for the Widgets:</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://gordongwb.github.io/docs/shortcodes/</link>
-      <pubDate>Thu, 05 Oct 2017 20:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/shortcodes/</guid>
-      <description>Minimo comes with several shortcodes built-in.
-Shortcode: center Center align you content.
-center: Parameters  Markdown content between opening and closing tags.  center: Usage Example {{% center %}} _Center Aligned Text_ {{% /center %}} Output
-_Center Aligned Text_  Shortcode: convo Renders conversation blocks.
-convo: Parameters  sep [String] (optional): seperator between person and text (default: &amp;ldquo;:&amp;rdquo;)  convo: Inner Syntax person :: text You can remove the person part, if you want.</description>
-    </item>
-    
-    <item>
-      <title>Cover Image</title>
-      <link>https://gordongwb.github.io/docs/cover-image/</link>
-      <pubDate>Sat, 30 Sep 2017 14:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/cover-image/</guid>
-      <description>You can add cover image to your contents with the cover paramameter in the content&amp;rsquo;s front-matter.
-You can directly provide the image url:
---- cover: /images/eden-farm-children-s-village.jpg ---  cover [String]: path/url of the cover image  Or you can provide additional information:
---- cover: image: /images/eden-farm-children-s-village.jpg alternate: Picture of a yellow wall with a blue window in the upper-left corner caption: Eden Farm Children&amp;#39;s Village by Gareth Harper on Unsplash style: full ---  cover [Map]:  image [String]: path/url of the cover image alternate [String]: alternate text for the image caption [String]: caption for the cover image style [String]: full / wide / normal   </description>
-    </item>
-    
-    <item>
-      <title>Translation Support</title>
-      <link>https://gordongwb.github.io/docs/translation/</link>
-      <pubDate>Wed, 27 Sep 2017 14:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/translation/</guid>
-      <description>You can translate Minimo in your own language!
-For example, if you want to translate Minimo in Spanish, you will have to add this to your site&amp;rsquo;s config file:
-[languages.es] lang = &amp;#34;es&amp;#34; languageName = &amp;#34;Spanish&amp;#34; weight = 1 Then create a folder named /i18n/ in your site&amp;rsquo;s root. And create a file /i18n/es.toml with the translated strings.
-For reference template you can see the en.toml file.
-If you want your translation file to be included in Minimo repository, feel free to create a pull request.</description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://gordongwb.github.io/docs/syntax-highlighting/</link>
-      <pubDate>Wed, 27 Sep 2017 12:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/syntax-highlighting/</guid>
-      <description>Hugo uses Chroma as it&amp;rsquo;s built-in syntax-highlighter.
-For detailed information about Syntax Highlighting in Hugo, check the Hugo&amp;rsquo;s Syntax Highlighting Documentation.</description>
-    </item>
-    
-    <item>
-      <title>Menus Setup Guide</title>
-      <link>https://gordongwb.github.io/docs/menus/</link>
-      <pubDate>Wed, 27 Sep 2017 10:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/menus/</guid>
-      <description>Minimo has three menus.
- Main Menu Sidebar Menu Social Menu  Main Menu name: main
-Main menu is located at the top of the site.
-Check Hugo&amp;rsquo;s Menus Documentation for information about managing this menu.
-You can hide the Main Menu using the following option in your config.toml file:
-[params.settings] hideMainMenu = true Sidebar Menu name: sidebar
-Social Menu is available as Widget: sidebar_menu. Add it to the sidebar Widget Area to use it.</description>
-    </item>
-    
-    <item>
-      <title>Opengraph Support</title>
-      <link>https://gordongwb.github.io/docs/opengraph/</link>
-      <pubDate>Tue, 26 Sep 2017 08:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/opengraph/</guid>
-      <description>Minimo has built-in support for Opengraph tags. It will pick up most of the things from your contents&amp;rsquo; front-matters &amp;amp; Hugo configuration.
-You can use these options in you content&amp;rsquo;s front-matter:
---- audios: [] # for og:audio tags images: [] # for og:image tags videos: [] # for og:video tags ---  audios [Array of Strings]: path/url of audio files images [Array of Strings]: path/url of image files videos [Array of Strings]: path/url of video files  N.</description>
-    </item>
-    
-    <item>
-      <title>Authors Setup Guide</title>
-      <link>https://gordongwb.github.io/docs/authors/</link>
-      <pubDate>Tue, 26 Sep 2017 06:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/authors/</guid>
-      <description>Minimo supports multiple authors for your site. Just make sure you have the following configuration in your site&amp;rsquo;s config.toml:
-[taxonomies] author = &amp;#34;authors&amp;#34; Minimo treats Authors as a Hugo Taxonomy.
-Author&amp;rsquo;s Profile For adding an author to your site:
- Create data/authors folder in your site&amp;rsquo;s root directory Create a file with the filename format: &amp;lt;username&amp;gt;.toml  Now, add information about the author using the structure below:
-/data/authors/muniftanjim.toml
-id = &amp;#34;muniftanjim&amp;#34; [email] username = &amp;#34;muniftanjim&amp;#34; host = &amp;#34;gmail.</description>
-    </item>
-    
-    <item>
-      <title>Configuration File: config.toml</title>
-      <link>https://gordongwb.github.io/docs/config-file/</link>
-      <pubDate>Mon, 25 Sep 2017 08:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/config-file/</guid>
-      <description>This is the Minimo&amp;rsquo;s configuration file ( config.toml ) file of this site:
-baseURL = &amp;#34;https://gordongwb.github.io&amp;#34; title = &amp;#34;Gordon&amp;#39;s Blog&amp;#34; # for smart copyright line, leave this blank and check [params.copyright] copyright = &amp;#34;&amp;#34; theme = &amp;#34;minimo&amp;#34; disqusShortname = &amp;#34;&amp;#34; googleAnalytics = &amp;#34;&amp;#34; Paginate = 5 preserveTaxonomyNames = true enableRobotsTXT = true # generate robots.txt # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ ) pygmentsCodefences = true enableEmoji = true # Missing translations will default to this content language defaultContentLanguage = &amp;#34;en&amp;#34; [params.</description>
-    </item>
-    
-    <item>
-      <title>Updating Guide</title>
-      <link>https://gordongwb.github.io/docs/updating/</link>
-      <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/updating/</guid>
-      <description>Updating Minimo Update Minimo clone Just replace the themes/minimo folder with the latest version of Minimo clone, i.e. delete the old folder and clone again:
-rm -rf themes/minimo git clone --depth 1 https://github.com/MunifTanjim/minimo themes/minimo Then, commit the changes:
-git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; Update Minimo submodule cd themes/minimo git checkout master git fetch &amp;amp;&amp;amp; git pull cd ../.. git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; To Do After Updating Minimo After updating Minimo, always check that your site&amp;rsquo;s config.</description>
-    </item>
-    
-    <item>
-      <title>Installation Guide</title>
-      <link>https://gordongwb.github.io/docs/installation/</link>
-      <pubDate>Mon, 25 Sep 2017 02:00:00 +0600</pubDate>
-      
-      <guid>https://gordongwb.github.io/docs/installation/</guid>
-      <description>First of all you will need to setup a Hugo site. You can follow the Hugo&amp;rsquo;s Quick Start Guide for that.
-After you&amp;rsquo;re done with that, it&amp;rsquo;s time for installing Minimo!
-Installing Minimo There are two different ways you can install Minimo:
- As clone As submodule  The second method is recommended.
-Install Minimo as clone With this method, you will simply clone it. And a copy of Minimo&amp;rsquo;s repository will be stored with the rest of you site.</description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://gordongwb.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gordongwb.github.io/search/</guid>
+      <guid>https://gordongwb.github.io/blog/2019-03/aria2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>申请美区 Apple ID</title>
+      <link>https://gordongwb.github.io/blog/2019-02/%E7%94%B3%E8%AF%B7%E7%BE%8E%E5%8C%BA-apple-id/</link>
+      <pubDate>Sun, 17 Feb 2019 10:15:00 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2019-02/%E7%94%B3%E8%AF%B7%E7%BE%8E%E5%8C%BA-apple-id/</guid>
+      <description>一、科学上网 我使用的是美国的vps，也可以在苹果商店找一些可以试用的vpn连接美国节点（直接搜vpn会跳出来一堆，总有免费的，挨个试吧） 二、调整手机配置 Settings -&amp;gt; General -&amp;gt; Language &amp;amp; Region 设置 -&amp;gt; 通常 -&amp;gt; 语言和地区 手机语言改为English，地区改为United States 三、注册账号 safari打开 appleid.apple.com 选择 create a new apple id 填写信息（我这里用的是gmail）验证邮箱 四、完善 app store 相关信息 safari打开 appleid.apple.com 选择 payment&amp;amp;shipp</description>
+    </item>
+    
+    <item>
+      <title>Blog养成记(14) 让同页滚动更平滑</title>
+      <link>https://gordongwb.github.io/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B014-%E8%AE%A9%E5%90%8C%E9%A1%B5%E6%BB%9A%E5%8A%A8%E6%9B%B4%E5%B9%B3%E6%BB%91/</link>
+      <pubDate>Sat, 18 Aug 2018 20:14:59 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B014-%E8%AE%A9%E5%90%8C%E9%A1%B5%E6%BB%9A%E5%8A%A8%E6%9B%B4%E5%B9%B3%E6%BB%91/</guid>
+      <description>&lt;p&gt;上一期说到增加toc侧边栏，但是直接跳转非常突兀，因此特地找了让同页跳转滚动更平滑的插件。
+&amp;lt;code&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;配置smooth-scroll插件&#34;&gt;配置smooth-scroll插件&lt;/h2&gt;
+
+&lt;p&gt;首先&lt;a href=&#34;https://github.com/kswedberg/jquery-smooth-scroll/releases&#34;&gt;下载smooth-scroll插件&lt;/a&gt;，将其中&lt;code&gt;jquery.smooth-scroll.js&lt;/code&gt;放入&lt;code&gt;js&lt;/code&gt;文件夹中。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog养成记(11) 给网站加个小icon</title>
+      <link>https://gordongwb.github.io/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</link>
+      <pubDate>Mon, 13 Aug 2018 00:14:19 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</guid>
+      <description>我们经常看到百度等网页会有自己的网站图标，在浏览器打开时显示在左侧，那如何给自己的网站也添加这么一个icon呢？</description>
+    </item>
+    
+    <item>
+      <title>音乐剧《Cat》repo</title>
+      <link>https://gordongwb.github.io/blog/2018-08/%E9%9F%B3%E4%B9%90%E5%89%A7catrepo/</link>
+      <pubDate>Sun, 12 Aug 2018 23:03:12 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-08/%E9%9F%B3%E4%B9%90%E5%89%A7catrepo/</guid>
+      <description>观剧档案 剧名：音乐剧《Cat》 观剧地点：上海大剧院 观剧时间：2018年8月1日 19:30 观剧位置：8排1座 题外话 看着时间还算早，想买个大鸡排，结果来福士地下一楼的豪大大没了，逛了一圈不知道吃什么，想要还能接受且速度快的，纠结良久决定肯德基。来到肯德基手机下单一个老北京，然后就后悔了，肯德基里等的人人山人海，等了快15min还早着的时候，我纠结了一下，天大地大，看戏最大，于是放弃鸡肉卷直奔大剧院。 Repo 位置 大剧</description>
+    </item>
+    
+    <item>
+      <title>前端试水(2) 使用docker镜像的Sass配置</title>
+      <link>https://gordongwb.github.io/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Thu, 02 Aug 2018 15:49:22 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</guid>
+      <description>前言 半年前，由于终于将博客主题初版设计出来准备开始实施，在less和sass中纠结良久选择了sass。为了保持环境纯净性，想用docker装sass，用node-sass，试了几次中间都失败，无奈放弃。几乎半年后的今天，莫名又开始有搭建网页的欲望，于是又开始折腾。不过这次运气不错，终于折腾成功。 Sass是什么 Sass 是一个 css的预编译器。它在css语法的基础上，引入了更多的变量、规则等功能，可以帮助c</description>
+    </item>
+    
+    <item>
+      <title>前端试水(1) 前端技术路线</title>
+      <link>https://gordongwb.github.io/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B41-%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</link>
+      <pubDate>Wed, 01 Aug 2018 10:23:48 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B41-%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</guid>
+      <description>前言 对于前端的了解欲望实际上是从想对博客主题进行修改开始的。但是前端这部分一直对我来说是个谜，虽然这些名词都能搜索到，但一直傻傻的不得其门而入。总算在一年后的今天，尽管还有很多地方暂时是迷雾状态，但貌似略了解一点前端的整体框架。现在算是开了新的一个系列，在此算是记录一下我了解的前端的技术路线，如果那些和我一样的前端小白们能通过这个也大概了解一点到底现在需要学的、用的是什么，就再好不过了。 对了，先声</description>
+    </item>
+    
+    <item>
+      <title>中文版音乐剧《长腿叔叔》repo</title>
+      <link>https://gordongwb.github.io/blog/2018-05/%E4%B8%AD%E6%96%87%E7%89%88%E9%9F%B3%E4%B9%90%E5%89%A7%E9%95%BF%E8%85%BF%E5%8F%94%E5%8F%94repo/</link>
+      <pubDate>Sat, 26 May 2018 16:37:59 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-05/%E4%B8%AD%E6%96%87%E7%89%88%E9%9F%B3%E4%B9%90%E5%89%A7%E9%95%BF%E8%85%BF%E5%8F%94%E5%8F%94repo/</guid>
+      <description>观剧档案 剧名：中文版音乐剧《长腿叔叔》 出品方：聚橙 观剧地点：上海兰心大戏院 观剧时间：2018年5月25日 19:30 观剧位置：12排18座 杰维斯：丁辉 乔若莎：陈希琰 碎碎念… 好友说有中文版音乐剧《长腿叔叔》的票，问何时想看可以和她说。Jade已经上周去看过，所以就带着同事和老妈周五走起了。周四天还不错，周五就开始下大雨……有些可惜，好在就只有在散场时下了大雨，等出了地铁雨也停了。 Repo 位置 兰心不大，所以12排就已</description>
+    </item>
+    
+    <item>
+      <title>爱尔兰踢踏舞《王者之舞∙危险游戏》</title>
+      <link>https://gordongwb.github.io/blog/2018-05/%E7%88%B1%E5%B0%94%E5%85%B0%E8%B8%A2%E8%B8%8F%E8%88%9E%E7%8E%8B%E8%80%85%E4%B9%8B%E8%88%9E%E5%8D%B1%E9%99%A9%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Thu, 24 May 2018 20:22:13 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-05/%E7%88%B1%E5%B0%94%E5%85%B0%E8%B8%A2%E8%B8%8F%E8%88%9E%E7%8E%8B%E8%80%85%E4%B9%8B%E8%88%9E%E5%8D%B1%E9%99%A9%E6%B8%B8%E6%88%8F/</guid>
+      <description>&lt;h2 id=&#34;观剧档案&#34;&gt;观剧档案&lt;/h2&gt;
+
+&lt;p&gt;剧名：爱尔兰踢踏舞《王者之舞∙危险游戏》&lt;/p&gt;
+
+&lt;p&gt;观剧地点：上海文化广场&lt;/p&gt;
+
+&lt;p&gt;观剧时间：2018年5月4日 19:30&lt;/p&gt;
+
+&lt;p&gt;观剧位置：4排11座&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>现实与幻想的距离——观《深夜小狗离奇事件》repo&amp;感想</title>
+      <link>https://gordongwb.github.io/blog/2018-05/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E5%B9%BB%E6%83%B3%E7%9A%84%E8%B7%9D%E7%A6%BB%E8%A7%82%E6%B7%B1%E5%A4%9C%E5%B0%8F%E7%8B%97%E7%A6%BB%E5%A5%87%E4%BA%8B%E4%BB%B6repo%E6%84%9F%E6%83%B3/</link>
+      <pubDate>Thu, 24 May 2018 10:17:35 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-05/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E5%B9%BB%E6%83%B3%E7%9A%84%E8%B7%9D%E7%A6%BB%E8%A7%82%E6%B7%B1%E5%A4%9C%E5%B0%8F%E7%8B%97%E7%A6%BB%E5%A5%87%E4%BA%8B%E4%BB%B6repo%E6%84%9F%E6%83%B3/</guid>
+      <description>前半段絮絮叨，中间段夹个repo，最后才是主题写的感想。 观剧档案 剧名：话剧《深夜小狗离奇事件》 剧团：英国国家剧院 National Theatre 国际巡演 观剧地点：上海文化广场 观剧时间：2018年5月16日 19:30 观剧位置：4排9座 听说《小狗》要来了…… 第一次知道《深夜小狗离奇事件 (The Curious Incident of the Dog in the Night-time)》是2013那年去纽约，在Broadway看了几场音乐剧，依稀记得在大街上见过《小狗》的宣传。之后回来了解到《小狗》</description>
+    </item>
+    
+    <item>
+      <title>Blog养成记(7) Hugo多级列表无法显示? —— Markdown的bug合集</title>
+      <link>https://gordongwb.github.io/blog/2018-03/blog%E5%85%BB%E6%88%90%E8%AE%B07-hugo%E5%A4%9A%E7%BA%A7%E5%88%97%E8%A1%A8%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA-markdown%E7%9A%84bug%E5%90%88%E9%9B%86/</link>
+      <pubDate>Tue, 20 Mar 2018 16:46:17 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-03/blog%E5%85%BB%E6%88%90%E8%AE%B07-hugo%E5%A4%9A%E7%BA%A7%E5%88%97%E8%A1%A8%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA-markdown%E7%9A%84bug%E5%90%88%E9%9B%86/</guid>
+      <description>前言 又一次开始折腾Markdown了，不过这一次是因为好好的md文件，在typora中显示的好好的，但在Hugo渲染后格式就不对了，引起我这次探究主要问题在多级列表。考虑到毕竟两个软件的markdown渲染引擎不同，我并没有用到很特别的语法。之前在引用上也碰到了问题，typora中能很好地识别我想要的引用段落，但是Hugo不行。所以这次探究下是哪里出了问题，以及对应的解决方案。 既然已经提到了mar</description>
+    </item>
+    
+    <item>
+      <title>Mac小白探索记(2) Finder设置</title>
+      <link>https://gordongwb.github.io/blog/2018-01/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B02-finder%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 30 Jan 2018 20:21:13 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-01/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B02-finder%E8%AE%BE%E7%BD%AE/</guid>
+      <description>Finder是mac的资源管理器，它的使用和配置与Windows区别还是挺多。习惯了Windows的使用使得Finder使用总觉得有些不便。配置好Finder能很大幅度提高我们的工作效率。 我会从遇到的问题着手，查找可以解决问题提高效率的解决方案。 Finder显示设置 显示隐藏文件夹 Mac系统Finder中的 /usr、/etc等文件夹都是隐藏文件，如果不进行设置用户是无法见到的。估计是因为mac用户并</description>
+    </item>
+    
+    <item>
+      <title>Mac小白探索记(1) 基本设置与常用软件</title>
+      <link>https://gordongwb.github.io/blog/2018-01/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B01-%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Tue, 30 Jan 2018 15:04:48 +0800</pubDate>
+      
+      <guid>https://gordongwb.github.io/blog/2018-01/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B01-%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
+      <description>序 原本打算将所有相关内容只写在一篇博文里，但后面发现越加越多，内容越来越零散，最后决定进行拆分，也变为一个系列。我是2017年底才刚开始深入使用mac，算是mac小白一枚，在探索的过程中想将一些我觉得高效实用的信息记录下来，希望其他和我一样刚开始学习mac的小伙伴们能看了后有所帮助。 第一篇主要介绍新入手mac后的基本设置与常用软件安装。终于转到有terminal的电脑上了，既然换了Mac OS，需要</description>
+    </item>
+    
+    <item>
+      <title>Moment Test</title>
+      <link>https://gordongwb.github.io/moment/test/</link>
+      <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
+      
+      <guid>https://gordongwb.github.io/moment/test/</guid>
+      <description>The Hitchhiker&amp;rsquo;s Guide to the Galaxy is a comedy science fiction series created by Douglas Adams. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, and over several years it gradually became an international multi-media phenomenon. Adaptations have included stage shows, a &amp;ldquo;trilogy&amp;rdquo; of five books published between 1979 and 1992, a sixth novel penned by Eoin Colfer in 2009, a 1981 TV series, a 1984 computer game, and three series of three-part comic book adaptations of the first three novels published by DC Comics between 1993 and 1996. There were also two series of towels, produced by Beer-Davies, that are considered by some fans to be an &amp;ldquo;official version&amp;rdquo; of The Hitchhiker&amp;rsquo;s Guide to the Galaxy, as they include text from the first novel.
+Movie A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005. Adams did many of these adaptations, including the novels, the TV series, the computer game, and the earliest drafts of the Hollywood film’s screenplay, and some of the stage shows introduced new material written by Adams.</description>
     </item>
     
   </channel>
