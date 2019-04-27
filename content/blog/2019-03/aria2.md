@@ -7,7 +7,7 @@ summary = " "
 tags= ["aria2"]
 categories= ["tools"]
 +++
-
+ 
 > 转自[Aria2打造属于自己的下载神器](https://juejin.im/post/5b20006f5188257d831e3dd0)
 
 我使用Aria2差不多已经2年了。在这段时间使用很多下载工具，最开始使用的是迅雷极速版 、后面各种原因不好使了。`Free Download Manager`、`uTorrent`、`qBittorrent`、`BitComet`、`IDM`等等全部折腾了一遍。各有千秋，在上面中使用下载种子和磁链最好用的是`qBittorrent`。http下载最好用的`IDM`。`qBittorrent`下载http有限制，`IDM`不能下载种子并是收费软件。
